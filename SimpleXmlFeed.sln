@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{36617262-F49A-4F72-9F5B-D0F0A7C376CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleXmlFeed.Api", "Server\SimpleXmlFeed.Api\SimpleXmlFeed.Api.csproj", "{553A8CAB-5D9C-4844-A11F-29B2078F0EFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{37F8C287-DD1C-4286-9EB6-3B57A3AF1319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleXmlFeed.Models", "Data\SimpleXmlFeed.Models\SimpleXmlFeed.Models.csproj", "{117AC155-D98C-4E2F-8975-765E978D5CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleXmlFeed.Data", "Data\SimpleXmlFeed.Data\SimpleXmlFeed.Data.csproj", "{8AB43FC9-D0CB-486D-815D-4F11C630ABDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E1AFF26C-DC8E-4CB1-B087-DAE7F5B908B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleXmlFeed.Services.Data", "Services\SimpleXmlFeed.Services.Data\SimpleXmlFeed.Services.Data.csproj", "{40C0F0FA-676B-48E7-BEEB-EA39681342C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleXmlFeed.Services.Xml", "Services\SimpleXmlFeed.Services.Xml\SimpleXmlFeed.Services.Xml.csproj", "{357DDCAC-7C6C-484B-8C33-CAFEF2AA0996}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{63B4D6B9-A568-4DB5-9E1F-5FA93A5C0562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleXmlFeed.Common", "Common\SimpleXmlFeed.Common\SimpleXmlFeed.Common.csproj", "{EE3400A1-7C6D-4EAA-86EC-3B86D20E9B43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{D55AFCB4-EA9F-4017-8C0F-D7EA216EC70C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleXmlFeed.Client", "Client\SimpleXmlFeed.Client\SimpleXmlFeed.Client.csproj", "{713B08A0-DCAD-4617-844D-41AE5768E022}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{553A8CAB-5D9C-4844-A11F-29B2078F0EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553A8CAB-5D9C-4844-A11F-29B2078F0EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553A8CAB-5D9C-4844-A11F-29B2078F0EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553A8CAB-5D9C-4844-A11F-29B2078F0EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117AC155-D98C-4E2F-8975-765E978D5CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117AC155-D98C-4E2F-8975-765E978D5CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117AC155-D98C-4E2F-8975-765E978D5CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117AC155-D98C-4E2F-8975-765E978D5CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB43FC9-D0CB-486D-815D-4F11C630ABDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB43FC9-D0CB-486D-815D-4F11C630ABDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB43FC9-D0CB-486D-815D-4F11C630ABDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB43FC9-D0CB-486D-815D-4F11C630ABDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C0F0FA-676B-48E7-BEEB-EA39681342C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C0F0FA-676B-48E7-BEEB-EA39681342C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C0F0FA-676B-48E7-BEEB-EA39681342C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C0F0FA-676B-48E7-BEEB-EA39681342C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357DDCAC-7C6C-484B-8C33-CAFEF2AA0996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357DDCAC-7C6C-484B-8C33-CAFEF2AA0996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357DDCAC-7C6C-484B-8C33-CAFEF2AA0996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357DDCAC-7C6C-484B-8C33-CAFEF2AA0996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3400A1-7C6D-4EAA-86EC-3B86D20E9B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3400A1-7C6D-4EAA-86EC-3B86D20E9B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3400A1-7C6D-4EAA-86EC-3B86D20E9B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3400A1-7C6D-4EAA-86EC-3B86D20E9B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713B08A0-DCAD-4617-844D-41AE5768E022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713B08A0-DCAD-4617-844D-41AE5768E022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713B08A0-DCAD-4617-844D-41AE5768E022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713B08A0-DCAD-4617-844D-41AE5768E022}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{553A8CAB-5D9C-4844-A11F-29B2078F0EFB} = {36617262-F49A-4F72-9F5B-D0F0A7C376CB}
+		{117AC155-D98C-4E2F-8975-765E978D5CCA} = {37F8C287-DD1C-4286-9EB6-3B57A3AF1319}
+		{8AB43FC9-D0CB-486D-815D-4F11C630ABDA} = {37F8C287-DD1C-4286-9EB6-3B57A3AF1319}
+		{40C0F0FA-676B-48E7-BEEB-EA39681342C5} = {E1AFF26C-DC8E-4CB1-B087-DAE7F5B908B8}
+		{357DDCAC-7C6C-484B-8C33-CAFEF2AA0996} = {E1AFF26C-DC8E-4CB1-B087-DAE7F5B908B8}
+		{EE3400A1-7C6D-4EAA-86EC-3B86D20E9B43} = {63B4D6B9-A568-4DB5-9E1F-5FA93A5C0562}
+		{713B08A0-DCAD-4617-844D-41AE5768E022} = {D55AFCB4-EA9F-4017-8C0F-D7EA216EC70C}
+	EndGlobalSection
+EndGlobal

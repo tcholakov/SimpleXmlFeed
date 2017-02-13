@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1>Today`s matches with odds</h1>
+    <h2>Updated on: {{updatedOn}}</h2>
+    <p>Number of matches: {{numberOfMatches}}</p>
+
+    <div ng-repeat="match in matches">
+        <div match-id="{{match.Id}}">
+            <b>Match</b>
+            <div>Sport: {{match.Sport}}</div>
+            <div>Event: {{match.Event}}</div>
+            <div>Match name: {{match.Name}}</div>
+            <div>Start date: {{match.StartDate}}</div>
+            <div>Match type: {{match.MatchType}}</div>
+            <br />
+            <div ng-repeat="bet in match.Bets">
+                <b>Bet</b>
+                <div bet-id="{{bet.Id}}">
+                    <div>Bet name: {{bet.Name}}</div>
+                    <div>Is live: {{bet.IsLive ? "Yes": "No"}}</div>
+                    <br />
+                    <div ng-repeat="odd in bet.Odds">
+                            <b>Odd</b>
+                            <div odd-id="{{odd.Id}}">
+                            <div>Odd name: {{odd.Name}}</div>
+                            <div>Value: {{odd.Value}}</div>
+                            <div ng-if="odd.SpecialBetValue">Special bet value: {{odd.SpecialBetValue}}</div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+    </div>
+</body>
+</html>
