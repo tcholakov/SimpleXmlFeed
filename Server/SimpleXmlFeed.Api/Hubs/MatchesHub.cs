@@ -1,14 +1,15 @@
 ﻿namespace SimpleXmlFeed.Api.Hubs
 {
-    using Microsoft.AspNet.SignalR;
-    using Models.Match;
-    using Common;
-    using SimpleXmlFeed.Services.Data.Contracts;
     using System.Linq;
+    
+    using Microsoft.AspNet.SignalR;
+    
     using AutoMapper.QueryableExtensions;
-    using Microsoft.AspNet.SignalR.Hubs;
+
+    using Common;
     using Common.Infrastructure;
-    using Newtonsoft.Json;
+    using SimpleXmlFeed.Services.Data.Contracts;
+    using Models.Match;
     
     public class MatchesHub : Hub
     {
