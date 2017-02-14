@@ -14,9 +14,7 @@
 
             $.connection.hub.start().done(function () {
                 matches.server.matchesWitOddsForToday();
-                setInterval(function () {
-                    matches.server.matchesWitOddsForToday();
-                }, intervalInSeconds * 1000);
+                setInterval(matches.server.matchesWitOddsForToday, intervalInSeconds * 1000);
             });
         }
 
