@@ -33,7 +33,7 @@
                 .OrderBy(match => match.StartDate)
                 .ToList(); ;
 
-            Clients.Caller.getMatches(result);
+            this.Clients.Caller.getMatches(result);
         }
     }
 }
